@@ -142,7 +142,7 @@ address {
   -webkit-box-sizing: content-box;
           box-sizing: content-box;
   margin: 0 auto;
-  padding: 0 0.9375rem;
+  padding: 0 1.25rem;
 }
 
 .btn {
@@ -472,6 +472,7 @@ body::after {
   width: 0.5625rem;
   height: 1rem;
   background: url("../img/icons/arrow-left.svg") 0 0 no-repeat;
+  font-size: 0;
 }
 
 .swiper-button-prev {
@@ -527,12 +528,6 @@ body::after {
   width: 100%;
 }
 
-.header__menu {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-}
-
 .menu {
   position: relative;
   z-index: 5;
@@ -552,7 +547,7 @@ body::after {
   position: absolute;
   left: 0;
   bottom: -0.125rem;
-  width: 0%;
+  width: 0;
   -webkit-transition: width 0.3s ease 0s;
   -o-transition: width 0.3s ease 0s;
   transition: width 0.3s ease 0s;
@@ -563,12 +558,12 @@ body::after {
 .contacts-menu {
   padding-bottom: 1.875rem;
   text-align: center;
+  color: #fff;
 }
 
 .contacts-menu__label {
   font-weight: 500;
   font-size: 1.25rem;
-  color: #fff;
   margin-bottom: 1.375rem;
 }
 
@@ -584,9 +579,6 @@ body::after {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  -webkit-box-align: start;
-      -ms-flex-align: start;
-          align-items: flex-start;
   margin-bottom: 1.5625rem;
   -webkit-box-align: center;
       -ms-flex-align: center;
@@ -594,7 +586,6 @@ body::after {
 }
 
 .contacts-menu__line {
-  color: #fff;
   position: relative;
   padding-left: 2.625rem;
   display: -webkit-box;
@@ -649,6 +640,7 @@ body::after {
   width: 1.5625rem;
   height: 1.5625rem;
   display: block;
+  font-size: 0rem;
 }
 
 .no-webp .contacts-menu__link_whatsapp {
@@ -679,6 +671,7 @@ body::after {
 .footer {
   background: #414648;
   padding-top: 3.75rem;
+  color: #fff;
 }
 
 .footer__container {
@@ -704,7 +697,6 @@ body::after {
 
 .footer__item {
   font-weight: 500;
-  color: #fff;
 }
 
 .footer__item:not(:last-child) {
@@ -751,7 +743,6 @@ body::after {
 .contacts-footer__label {
   font-weight: 500;
   font-size: 1.25rem;
-  color: #fff;
   margin-bottom: 1.375rem;
 }
 
@@ -774,7 +765,6 @@ body::after {
 }
 
 .contacts-footer__line {
-  color: #fff;
   position: relative;
   padding-left: 2.625rem;
   display: -webkit-box;
@@ -838,7 +828,7 @@ body::after {
   position: absolute;
   left: 0;
   bottom: -0.125rem;
-  width: 0%;
+  width: 0;
   -webkit-transition: width 0.3s ease 0s;
   -o-transition: width 0.3s ease 0s;
   transition: width 0.3s ease 0s;
@@ -915,7 +905,7 @@ body::after {
 .hero__container {
   position: relative;
   z-index: 2;
-  padding: 8.5rem 0.9375rem;
+  padding: 8.5rem 1.25rem;
 }
 
 .hero__title {
@@ -1088,7 +1078,7 @@ body::after {
 
 .countries__title {
   margin-bottom: 1.1111111111em;
-  padding: 0rem 0.9375rem;
+  padding: 0rem 1.25rem;
 }
 
 .countries__map {
@@ -1350,9 +1340,9 @@ body::after {
 
 .content-feedback__btn {
   font-weight: 500;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -1452,7 +1442,7 @@ body::after {
   -webkit-box-shadow: 0 0.125rem 1.25rem rgba(205, 205, 205, 0.25);
           box-shadow: 0 0.125rem 1.25rem rgba(205, 205, 205, 0.25);
   border-radius: 1.25rem;
-  padding: 0.9375rem 0.9375rem 1.4375rem 0.9375rem;
+  padding: 0.875rem 0.8125rem 1.4375rem;
 }
 
 .column-cases__image {
@@ -1460,7 +1450,7 @@ body::after {
   margin-bottom: 1.25rem;
   -o-object-fit: cover;
      object-fit: cover;
-  border-radius: 1.5625rem;
+  border-radius: 0.8125rem;
 }
 
 .column-cases__label {
@@ -1585,7 +1575,7 @@ body::after {
   }
 }
 
-@media (min-width: 76.875em) {
+@media (min-width: 77.5em) {
   .header__logo {
     width: 15.8125rem;
   }
@@ -1609,11 +1599,11 @@ body::after {
 
 @media (max-width: 20em) {
   .header__logo {
-    width: 10.9375rem;
+    width: 10.625rem;
   }
 }
 
-@media (max-width: 76.875em) {
+@media (max-width: 77.5em) {
   .questions__body {
     gap: 1.875rem;
   }
@@ -1657,7 +1647,7 @@ body::after {
   }
 
   .hero__subtitle {
-    font-size: 2.4375rem;
+    font-size: 2.375rem;
   }
 
   .questions__body {
@@ -1796,12 +1786,11 @@ body::after {
     text-align: center;
     padding-bottom: 2.1875rem;
     border-bottom: 0.0625rem solid rgba(255, 255, 255, 0.2);
-    margin: 0rem 0.9375rem 2rem;
+    margin: 0rem 1.25rem 2rem;
   }
 
   .menu__item:not(:first-child) {
-    margin-left: 0;
-    margin-top: 1.875rem;
+    margin: 1.875rem 0rem 0rem 0rem;
   }
 
   .menu__link {
@@ -1811,9 +1800,10 @@ body::after {
 
   .icon-menu {
     display: block;
+    margin-right: 0.25rem;
     position: relative;
-    width: 1.25rem;
-    height: 0.75rem;
+    width: 1.875rem;
+    height: 1.125rem;
     cursor: pointer;
     z-index: 5;
   }
@@ -1825,25 +1815,25 @@ body::after {
     -webkit-transition: all 0.3s ease 0s;
     -o-transition: all 0.3s ease 0s;
     transition: all 0.3s ease 0s;
-    right: 0;
+    right: 0.3125rem;
     position: absolute;
-    width: 100%;
+    width: 66.6666%;
     height: 0.125rem;
     background-color: #000;
   }
 
   .icon-menu::before {
-    top: 0;
+    top: 0.1875rem;
   }
 
   .icon-menu::after {
-    bottom: 0;
-    width: 35%;
+    bottom: 0.1875rem;
+    width: 23.3333333333%;
   }
 
   .icon-menu span {
     top: calc(50% - 0.0625rem);
-    width: 65%;
+    width: 43.3333333333%;
   }
 
   .menu-open .icon-menu span {
@@ -1867,7 +1857,7 @@ body::after {
     -webkit-transform: rotate(-45deg);
         -ms-transform: rotate(-45deg);
             transform: rotate(-45deg);
-    width: 100%;
+    width: 66.6666%;
   }
 
   .footer {
@@ -2113,17 +2103,17 @@ body::after {
   }
 }
 
-@media (min-width: 20em) and (max-width: 76.875em) {
-@supports (width: clamp( 10.9375rem , 9.2232142857rem  +  8.5714285714vw , 15.8125rem )) {
+@media (min-width: 20em) and (max-width: 77.5em) {
+@supports (width: clamp( 10.625rem , 8.8206521739rem  +  9.0217391304vw , 15.8125rem )) {
     .header__logo {
-      width: clamp( 10.9375rem , 9.2232142857rem  +  8.5714285714vw , 15.8125rem );
+      width: clamp( 10.625rem , 8.8206521739rem  +  9.0217391304vw , 15.8125rem );
     }
 }
 
-@supports not (width: clamp( 10.9375rem , 9.2232142857rem  +  8.5714285714vw , 15.8125rem )) {
+@supports not (width: clamp( 10.625rem , 8.8206521739rem  +  9.0217391304vw , 15.8125rem )) {
     .header__logo {
       width: calc(
-				10.9375rem + 4.875 * (100vw - 20rem) / 56.875
+				10.625rem + 5.1875 * (100vw - 20rem) / 57.5
 			);
     }
 }
