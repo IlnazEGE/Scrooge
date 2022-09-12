@@ -1,0 +1,536 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <title>Scrooge</title>
+  <meta charset="UTF-8">
+  <meta name="format-detection" content="telephone=no">
+  <link rel="stylesheet" href="css/style.min.css?_v=20220912105520">
+  <link rel="shortcut icon" href="img/favicon.png">
+  <meta name="robots" content="noindex, nofollow">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+
+  <div class="wrapper">
+    <header class="header">
+      <div class="header__container">
+        <a class="header__logo" href="">
+          <img src="img/logo.svg" alt="Scrooge Frog">
+        </a>
+        <div class="header__menu menu">
+          <button class="menu__icon icon-menu" type="button" aria-label="Открыть меню">
+            <span></span>
+          </button>
+          <nav class="menu__body">
+            <ul class="menu__list">
+              <li class="menu__item">
+                <a class="menu__link" data-popup="#thank" href="">Cases</a>
+              </li>
+              <li class="menu__item">
+                <a class="menu__link" href="">Blog</a>
+              </li>
+              <li class="menu__item">
+                <a class="menu__link" href="">Services</a>
+              </li>
+              <li class="menu__item">
+                <a class="menu__link" href="">Team</a>
+              </li>
+              <li class="menu__item">
+                <a class="menu__link" href="">Contact us</a>
+              </li>
+            </ul>
+            <div class="menu__contacts contacts-menu">
+              <div class="contacts-menu__label">Contacts</div>
+              <ul class="contacts-menu__lines">
+                <li class="contacts-menu__line contacts-menu__line_phone">
+                  <a class="contacts-menu__phone" href="tel:+38096473232">+380 (96) 47 32 32</a>
+                </li>
+                <li class="contacts-menu__line contacts-menu__line_mail">
+                  <a class="contacts-menu__mail" href="mailto:scrooge.frog.@gmail.com">scrooge.frog.@gmail.com</a>
+                </li>
+              </ul>
+              <ul class="contacts-menu__icons">
+                <li class="contacts-menu__icon">
+                  <a class="contacts-menu__link contacts-menu__link_whatsapp" href=""></a>
+                </li>
+                <li class="contacts-menu__icon">
+                  <a class="contacts-menu__link contacts-menu__link_skype" href=""></a>
+                </li>
+                <li class="contacts-menu__icon">
+                  <a class="contacts-menu__link contacts-menu__link_tg" href=""></a>
+                </li>
+              </ul>
+              <div class="contacts-menu__label contacts-menu__label_bottom">In social networks</div>
+              <ul class="contacts-menu__icons">
+                <li class="contacts-menu__icon">
+                  <a class="contacts-menu__link contacts-menu__link_tg" href=""></a>
+                </li>
+                <li class="contacts-menu__icon">
+                  <a class="contacts-menu__link contacts-menu__link_in" href=""></a>
+                </li>
+                <li class="contacts-menu__icon">
+                  <a class="contacts-menu__link contacts-menu__link_facebook" href=""></a>
+                </li>
+                <li class="contacts-menu__icon">
+                  <a class="contacts-menu__link contacts-menu__link_reddit" href=""></a>
+                </li>
+                <li class="contacts-menu__icon">
+                  <a class="contacts-menu__link contacts-menu__link_twitter" href=""></a>
+                </li>
+              </ul>
+            </div>
+          </nav>
+        </div>
+      </div>
+    </header>
+    <main class="page">
+      <section class="hero">
+        <picture>
+          <source srcset="img/hero-bg.webp" type="image/webp">
+          <img class="hero__image" src="img/hero-bg.jpg" alt="">
+        </picture>
+        <div class="hero__container">
+          <h1 class="hero__title">Media buying agency</h1>
+          <h2 class="hero__subtitle">Set up native advertising & advertising in social networks
+            <br> Optimize traffic
+          </h2>
+          <button data-popup="#consult" class="hero__btn btn">Get a consultation</button>
+        </div>
+      </section>
+      <section class="questions">
+        <div class="questions__container">
+          <ul class="questions__body">
+            <li class="questions__column">
+              <h2 class="questions__question">How many years?</h2>
+              <p class="questions__answer">Helping clients achieve results <span>for 15 years</span>
+              </p>
+            </li>
+            <li class="questions__column">
+              <h2 class="questions__question">How many countries?</h2>
+              <p class="questions__answer">
+                <span>50+</span> different geos around the world
+              </p>
+            </li>
+            <li class="questions__column">
+              <h2 class="questions__question">What is the advertising budget?</h2>
+              <p class="questions__answer">
+                <span>2 million EUR+</span> in process
+              </p>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section class="services">
+        <div class="services__container">
+          <h2 class="services__title title">Our services</h2>
+          <ul class="services__columns">
+            <li class="services__column column-services">
+              <div class="column-services__icon column-services__icon_native"></div>
+              <div class="column-services__content">
+                <h3 class="column-services__label">Native</h3>
+                <p class="column-services__text">we optimize advertising networks for KPI</p>
+              </div>
+            </li>
+            <li class="services__column column-services">
+              <div class="column-services__icon column-services__icon_social"></div>
+              <div class="column-services__content">
+                <h3 class="column-services__label">Social</h3>
+                <p class="column-services__text">we select the most accurate audience targeting</p>
+              </div>
+            </li>
+            <li class="services__column column-services">
+              <div class="column-services__icon column-services__icon_in-app"></div>
+              <div class="column-services__content">
+                <h3 class="column-services__label">In-app</h3>
+                <p class="column-services__text">we work with a huge number of messengers and mobs. browsers</p>
+              </div>
+            </li>
+            <li class="services__column column-services">
+              <div class="column-services__icon column-services__icon_anti-fraud-system"></div>
+              <div class="column-services__content">
+                <h3 class="column-services__label">Anti fraud system</h3>
+                <p class="column-services__text">conduct a behavioral analysis of the audience for the client</p>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section class="partners">
+        <div class="partners__container">
+          <h2 class="partners__title title">Networks with which we work, there are <span>more than 100 of them</span>
+          </h2>
+          <div class="partners__slider-wrapper">
+            <div class="partners__slider swiper">
+              <div class="partners__wrapper swiper-wrapper">
+                <div class="partners__slide swiper-slide slide-partners">
+                  <picture>
+                    <source srcset="img/partners/1.webp" type="image/webp">
+                    <img src="img/partners/1.png" alt="">
+                  </picture>
+                </div>
+                <div class="partners__slide swiper-slide slide-partners">
+                  <picture>
+                    <source srcset="img/partners/2.webp" type="image/webp">
+                    <img src="img/partners/2.png" alt="">
+                  </picture>
+                </div>
+                <div class="partners__slide swiper-slide slide-partners">
+                  <picture>
+                    <source srcset="img/partners/3.webp" type="image/webp">
+                    <img src="img/partners/3.png" alt="">
+                  </picture>
+                </div>
+                <div class="partners__slide swiper-slide slide-partners">
+                  <picture>
+                    <source srcset="img/partners/4.webp" type="image/webp">
+                    <img src="img/partners/4.png" alt="">
+                  </picture>
+                </div>
+                <div class="partners__slide swiper-slide slide-partners">
+                  <picture>
+                    <source srcset="img/partners/5.webp" type="image/webp">
+                    <img src="img/partners/5.png" alt="">
+                  </picture>
+                </div>
+                <div class="partners__slide swiper-slide slide-partners">
+                  <picture>
+                    <source srcset="img/partners/1.webp" type="image/webp">
+                    <img src="img/partners/1.png" alt="">
+                  </picture>
+                </div>
+              </div>
+              <button class="swiper-button-prev" type="button"></button>
+              <button class="swiper-button-next" type="button"></button>
+              <div class="swiper-scrollbar"></div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="countries">
+        <h2 class="countries__title title">Our advertising campaigns in <span>70+ countries</span> in the last 12
+          months</h2>
+        <div class="countries__map">
+          <picture>
+            <source srcset="img/map.webp" type="image/webp">
+            <img class="countries__image" src="img/map.jpg" alt="">
+          </picture>
+          <div class="countries__container">
+            <div class="countries__spollers spollers" data-spollers data-one-spoller>
+              <div class="spollers__wrapper">
+                <div class="spollers__check">Check countries (70)</div>
+                <div class="spollers__country">
+                  <button class="spollers__title" type="button" data-spoller>
+                    Europe (33)
+                    <svg width="21" height="21" viewBox="0 0 21 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <circle cx="10.5" cy="10.5" r="10" stroke="#AB29E4" />
+                      <path d="M10.8991 5.116C11.8231 5.116 12.5698 5.37733 13.1391 5.9C13.7084 6.42267 13.9931 7.12267 13.9931 8C13.9931 8.98 13.6898 9.708 13.0831 10.184C12.4764 10.6507 11.6551 10.884 10.6191 10.884L10.5771 12.214H9.4711L9.4151 10.002H9.8211C10.7451 10.002 11.4684 9.862 11.9911 9.582C12.5138 9.302 12.7751 8.77467 12.7751 8C12.7751 7.44 12.6071 6.99667 12.2711 6.67C11.9351 6.34333 11.4824 6.18 10.9131 6.18C10.3344 6.18 9.8771 6.33867 9.5411 6.656C9.21443 6.964 9.0511 7.38867 9.0511 7.93H7.8471C7.8471 7.37 7.9731 6.88 8.2251 6.46C8.4771 6.03067 8.83177 5.69933 9.2891 5.466C9.75577 5.23267 10.2924 5.116 10.8991 5.116ZM10.0171 15.084C9.77443 15.084 9.5691 15 9.4011 14.832C9.2331 14.664 9.1491 14.4587 9.1491 14.216C9.1491 13.9733 9.2331 13.768 9.4011 13.6C9.5691 13.432 9.77443 13.348 10.0171 13.348C10.2504 13.348 10.4464 13.432 10.6051 13.6C10.7731 13.768 10.8571 13.9733 10.8571 14.216C10.8571 14.4587 10.7731 14.664 10.6051 14.832C10.4464 15 10.2504 15.084 10.0171 15.084Z" />
+                    </svg>
+                  </button>
+                  <ul class="spollers__body">
+                    <li class="spollers__item">Africa (8)</li>
+                    <li class="spollers__item">Africa (8)</li>
+                    <li class="spollers__item">Africa (8)</li>
+                    <li class="spollers__item">Africa (8)</li>
+                  </ul>
+                </div>
+                <div class="spollers__country">
+                  <button class="spollers__title" type="button" data-spoller>Africa (8)
+                    <svg width="21" height="21" viewBox="0 0 21 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <circle cx="10.5" cy="10.5" r="10" stroke="#AB29E4" />
+                      <path d="M10.8991 5.116C11.8231 5.116 12.5698 5.37733 13.1391 5.9C13.7084 6.42267 13.9931 7.12267 13.9931 8C13.9931 8.98 13.6898 9.708 13.0831 10.184C12.4764 10.6507 11.6551 10.884 10.6191 10.884L10.5771 12.214H9.4711L9.4151 10.002H9.8211C10.7451 10.002 11.4684 9.862 11.9911 9.582C12.5138 9.302 12.7751 8.77467 12.7751 8C12.7751 7.44 12.6071 6.99667 12.2711 6.67C11.9351 6.34333 11.4824 6.18 10.9131 6.18C10.3344 6.18 9.8771 6.33867 9.5411 6.656C9.21443 6.964 9.0511 7.38867 9.0511 7.93H7.8471C7.8471 7.37 7.9731 6.88 8.2251 6.46C8.4771 6.03067 8.83177 5.69933 9.2891 5.466C9.75577 5.23267 10.2924 5.116 10.8991 5.116ZM10.0171 15.084C9.77443 15.084 9.5691 15 9.4011 14.832C9.2331 14.664 9.1491 14.4587 9.1491 14.216C9.1491 13.9733 9.2331 13.768 9.4011 13.6C9.5691 13.432 9.77443 13.348 10.0171 13.348C10.2504 13.348 10.4464 13.432 10.6051 13.6C10.7731 13.768 10.8571 13.9733 10.8571 14.216C10.8571 14.4587 10.7731 14.664 10.6051 14.832C10.4464 15 10.2504 15.084 10.0171 15.084Z" />
+                    </svg>
+                  </button>
+                  <ul class="spollers__body">
+                    <li class="spollers__item">Africa (8)</li>
+                    <li class="spollers__item">Africa (8)</li>
+                    <li class="spollers__item">Africa (8)</li>
+                    <li class="spollers__item">Africa (8)</li>
+                  </ul>
+                </div>
+                <div class="spollers__country">
+                  <button class="spollers__title" type="button" data-spoller>North America (2)
+                    <svg width="21" height="21" viewBox="0 0 21 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <circle cx="10.5" cy="10.5" r="10" stroke="#AB29E4" />
+                      <path d="M10.8991 5.116C11.8231 5.116 12.5698 5.37733 13.1391 5.9C13.7084 6.42267 13.9931 7.12267 13.9931 8C13.9931 8.98 13.6898 9.708 13.0831 10.184C12.4764 10.6507 11.6551 10.884 10.6191 10.884L10.5771 12.214H9.4711L9.4151 10.002H9.8211C10.7451 10.002 11.4684 9.862 11.9911 9.582C12.5138 9.302 12.7751 8.77467 12.7751 8C12.7751 7.44 12.6071 6.99667 12.2711 6.67C11.9351 6.34333 11.4824 6.18 10.9131 6.18C10.3344 6.18 9.8771 6.33867 9.5411 6.656C9.21443 6.964 9.0511 7.38867 9.0511 7.93H7.8471C7.8471 7.37 7.9731 6.88 8.2251 6.46C8.4771 6.03067 8.83177 5.69933 9.2891 5.466C9.75577 5.23267 10.2924 5.116 10.8991 5.116ZM10.0171 15.084C9.77443 15.084 9.5691 15 9.4011 14.832C9.2331 14.664 9.1491 14.4587 9.1491 14.216C9.1491 13.9733 9.2331 13.768 9.4011 13.6C9.5691 13.432 9.77443 13.348 10.0171 13.348C10.2504 13.348 10.4464 13.432 10.6051 13.6C10.7731 13.768 10.8571 13.9733 10.8571 14.216C10.8571 14.4587 10.7731 14.664 10.6051 14.832C10.4464 15 10.2504 15.084 10.0171 15.084Z" />
+                    </svg>
+                  </button>
+                  <ul class="spollers__body">
+                    <li class="spollers__item">Africa (8)</li>
+                    <li class="spollers__item">Africa (8)</li>
+                    <li class="spollers__item">Africa (8)</li>
+                    <li class="spollers__item">Africa (8)</li>
+                  </ul>
+                </div>
+                <div class="spollers__country">
+                  <button class="spollers__title" type="button" data-spoller>South America (3)
+                    <svg width="21" height="21" viewBox="0 0 21 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <circle cx="10.5" cy="10.5" r="10" stroke="#AB29E4" />
+                      <path d="M10.8991 5.116C11.8231 5.116 12.5698 5.37733 13.1391 5.9C13.7084 6.42267 13.9931 7.12267 13.9931 8C13.9931 8.98 13.6898 9.708 13.0831 10.184C12.4764 10.6507 11.6551 10.884 10.6191 10.884L10.5771 12.214H9.4711L9.4151 10.002H9.8211C10.7451 10.002 11.4684 9.862 11.9911 9.582C12.5138 9.302 12.7751 8.77467 12.7751 8C12.7751 7.44 12.6071 6.99667 12.2711 6.67C11.9351 6.34333 11.4824 6.18 10.9131 6.18C10.3344 6.18 9.8771 6.33867 9.5411 6.656C9.21443 6.964 9.0511 7.38867 9.0511 7.93H7.8471C7.8471 7.37 7.9731 6.88 8.2251 6.46C8.4771 6.03067 8.83177 5.69933 9.2891 5.466C9.75577 5.23267 10.2924 5.116 10.8991 5.116ZM10.0171 15.084C9.77443 15.084 9.5691 15 9.4011 14.832C9.2331 14.664 9.1491 14.4587 9.1491 14.216C9.1491 13.9733 9.2331 13.768 9.4011 13.6C9.5691 13.432 9.77443 13.348 10.0171 13.348C10.2504 13.348 10.4464 13.432 10.6051 13.6C10.7731 13.768 10.8571 13.9733 10.8571 14.216C10.8571 14.4587 10.7731 14.664 10.6051 14.832C10.4464 15 10.2504 15.084 10.0171 15.084Z" />
+                    </svg>
+                  </button>
+                  <ul class="spollers__body">
+                    <li class="spollers__item">Africa (8)</li>
+                    <li class="spollers__item">Africa (8)</li>
+                    <li class="spollers__item">Africa (8)</li>
+                    <li class="spollers__item">Africa (8)</li>
+                  </ul>
+                </div>
+                <div class="spollers__country">
+                  <button class="spollers__title" type="button" data-spoller>Australia (1)
+                    <svg width="21" height="21" viewBox="0 0 21 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <circle cx="10.5" cy="10.5" r="10" stroke="#AB29E4" />
+                      <path d="M10.8991 5.116C11.8231 5.116 12.5698 5.37733 13.1391 5.9C13.7084 6.42267 13.9931 7.12267 13.9931 8C13.9931 8.98 13.6898 9.708 13.0831 10.184C12.4764 10.6507 11.6551 10.884 10.6191 10.884L10.5771 12.214H9.4711L9.4151 10.002H9.8211C10.7451 10.002 11.4684 9.862 11.9911 9.582C12.5138 9.302 12.7751 8.77467 12.7751 8C12.7751 7.44 12.6071 6.99667 12.2711 6.67C11.9351 6.34333 11.4824 6.18 10.9131 6.18C10.3344 6.18 9.8771 6.33867 9.5411 6.656C9.21443 6.964 9.0511 7.38867 9.0511 7.93H7.8471C7.8471 7.37 7.9731 6.88 8.2251 6.46C8.4771 6.03067 8.83177 5.69933 9.2891 5.466C9.75577 5.23267 10.2924 5.116 10.8991 5.116ZM10.0171 15.084C9.77443 15.084 9.5691 15 9.4011 14.832C9.2331 14.664 9.1491 14.4587 9.1491 14.216C9.1491 13.9733 9.2331 13.768 9.4011 13.6C9.5691 13.432 9.77443 13.348 10.0171 13.348C10.2504 13.348 10.4464 13.432 10.6051 13.6C10.7731 13.768 10.8571 13.9733 10.8571 14.216C10.8571 14.4587 10.7731 14.664 10.6051 14.832C10.4464 15 10.2504 15.084 10.0171 15.084Z" />
+                    </svg>
+                  </button>
+                  <ul class="spollers__body">
+                    <li class="spollers__item">Africa (8)</li>
+                    <li class="spollers__item">Africa (8)</li>
+                    <li class="spollers__item">Africa (8)</li>
+                    <li class="spollers__item">Africa (8)</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="stages">
+        <div class="stages__container">
+          <h2 class="stages__title title">Stages of work</h2>
+          <ul class="stages__list">
+            <li class="stages__item">
+              <img class="stages__image" src="img/stages/1.svg" alt="">
+              <div class="stages__content">
+                <h3 class="stages__label">Initial consultation</h3>
+                <p class="stages__text">We discuss the work plan and the desired result, as well as geo, budget, KPI,
+                  landing pages, coordination of advertising sources</p>
+              </div>
+            </li>
+            <li class="stages__item">
+              <img class="stages__image" src="img/stages/2.svg" alt="">
+              <div class="stages__content">
+                <h3 class="stages__label">Concluded an agreement</h3>
+                <p class="stages__text">We discuss flexible payment methods and sign an agreement</p>
+              </div>
+            </li>
+            <li class="stages__item">
+              <img class="stages__image" src="img/stages/3.svg" alt="">
+              <div class="stages__content">
+                <h3 class="stages__label">Preparation of advertising campaigns</h3>
+                <p class="stages__text">We create advertising accounts, ready-made creatives, set up analytics or CRM
+                  data collection, coordinate traffic markup</p>
+              </div>
+            </li>
+            <li class="stages__item">
+              <img class="stages__image" src="img/stages/4.svg" alt="">
+              <div class="stages__content">
+                <h3 class="stages__label">Launch and optimization</h3>
+                <p class="stages__text">Full control over advertising campaigns by our specialists, real-time
+                  optimization</p>
+              </div>
+            </li>
+            <li class="stages__item">
+              <img class="stages__image" src="img/stages/5.svg" alt="">
+              <div class="stages__content">
+                <h3 class="stages__label">The final stage</h3>
+                <p class="stages__text">We scale the results and, if necessary, add new sources, make test advertising
+                  campaigns</p>
+              </div>
+            </li>
+          </ul>
+          <div class="stages__bottom">
+            <a class="stages__btn" href="">Get a consultation</a>
+          </div>
+        </div>
+      </section>
+      <section class="feedback">
+        <div class="feedback__container">
+          <div class="feedback__content content-feedback">
+            <h2 class="content-feedback__title">Have a project in mind? Let’s get to work</h2>
+            <button class="content-feedback__btn">Contact us</button>
+          </div>
+          <div class="feedback__right">
+            <form class="feedback__form form-feedback" action="#">
+              <h2 class="form-feedback__title">Fill out an application</h2>
+              <div class="form-feedback__inp-wrapper form-feedback__inp-wrapper_name">
+                <input class="input form-feedback__input" autocomplete="off" type="text" name="form[]" placeholder="Name">
+              </div>
+              <div class="form-feedback__inp-wrapper form-feedback__inp-wrapper_mail">
+                <input class="input form-feedback__input" autocomplete="off" type="text" name="form[]" placeholder="Mail">
+              </div>
+              <div class="form-feedback__inp-wrapper form-feedback__inp-wrapper_phone">
+                <input class="input form-feedback__input" autocomplete="off" type="text" name="form[]" placeholder="Phone">
+              </div>
+              <button class="form-feedback__btn btn">Get a consultation</button>
+            </form>
+          </div>
+        </div>
+      </section>
+      <section class="cases">
+        <div class="cases__container">
+          <h2 class="cases__title title">Check out <span>our experience and cases</span>
+          </h2>
+          <ul class="cases__columns">
+            <li class="cases__column column-cases">
+              <picture>
+                <source srcset="img/cases/1.webp" type="image/webp">
+                <img class="column-cases__image" src="img/cases/1.jpg" alt="">
+              </picture>
+              <div class="column-cases__content">
+                <h3 class="column-cases__label">How to sell COD offers through landing pages in the Middle East and
+                  Africa?</h3>
+                <p class="column-cases__text">
+                  We have been working on the case throughout 2021 and decided to talk about <a href="">Read More</a>
+                </p>
+              </div>
+            </li>
+            <li class="cases__column column-cases">
+              <picture>
+                <source srcset="img/cases/2.webp" type="image/webp">
+                <img class="column-cases__image" src="img/cases/2.jpg" alt="">
+              </picture>
+              <div class="column-cases__content">
+                <h3 class="column-cases__label">What are the results of ads in 3 different languages on different
+                  platforms?</h3>
+                <p class="column-cases__text">
+                  First of all, we want to introduce our client and some introductory information. The multiplayer <a href="">Read More</a>
+                </p>
+              </div>
+            </li>
+            <li class="cases__column column-cases">
+              <picture>
+                <source srcset="img/cases/3.webp" type="image/webp">
+                <img class="column-cases__image" src="img/cases/3.jpg" alt="">
+              </picture>
+              <div class="column-cases__content">
+                <h3 class="column-cases__label">Dating in Geo Canada, Great Britain, USA, and Australia</h3>
+                <p class="column-cases__text">Tasks: Optimization for registration. Optimization for a first deposit.
+                  Finding a traffic source for a <a href="">Read More</a>
+                </p>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="footer__container">
+        <div class="footer__left">
+          <a class="footer__logo" href="">
+            <img src="img/logo-footer.svg" alt="Scrooge Frog">
+          </a>
+        </div>
+        <nav class="footer__menu">
+          <ul class="footer__list">
+            <li class="footer__item">
+              <a class="footer__link" href="">Cases</a>
+            </li>
+            <li class="footer__item">
+              <a class="footer__link" href="">Blog</a>
+            </li>
+            <li class="footer__item">
+              <a class="footer__link" href="">Services</a>
+            </li>
+            <li class="footer__item">
+              <a class="footer__link" href="">Team</a>
+            </li>
+            <li class="footer__item">
+              <a class="footer__link" href="">Contact us</a>
+            </li>
+          </ul>
+        </nav>
+        <div class="footer__contacts contacts-footer">
+          <div class="contacts-footer__label">Contacts</div>
+          <ul class="contacts-footer__lines">
+            <li class="contacts-footer__line contacts-footer__line_phone">
+              <a class="contacts-footer__phone" href="tel:+38096473232">+380 (96) 47 32 32</a>
+            </li>
+            <li class="contacts-footer__line contacts-footer__line_mail">
+              <a class="contacts-footer__mail" href="mailto:scrooge.frog.@gmail.com">scrooge.frog.@gmail.com</a>
+            </li>
+          </ul>
+          <ul class="contacts-footer__icons">
+            <li class="contacts-footer__icon">
+              <a class="contacts-footer__link contacts-footer__link_whatsapp" href="">Whatsapp</a>
+            </li>
+            <li class="contacts-footer__icon">
+              <a class="contacts-footer__link contacts-footer__link_skype" href="">Skype</a>
+            </li>
+            <li class="contacts-footer__icon">
+              <a class="contacts-footer__link contacts-footer__link_tg" href="">Telegram</a>
+            </li>
+          </ul>
+          <div class="contacts-footer__label contacts-footer__label_bottom">In social networks</div>
+          <ul class="contacts-footer__icons">
+            <li class="contacts-footer__icon">
+              <a class="contacts-footer__link contacts-footer__link_tg" href="">Telegram</a>
+            </li>
+            <li class="contacts-footer__icon">
+              <a class="contacts-footer__link contacts-footer__link_in" href="">Linkedin</a>
+            </li>
+            <li class="contacts-footer__icon">
+              <a class="contacts-footer__link contacts-footer__link_facebook" href="">Facebook</a>
+            </li>
+            <li class="contacts-footer__icon">
+              <a class="contacts-footer__link contacts-footer__link_reddit" href="">Reddit</a>
+            </li>
+            <li class="contacts-footer__icon">
+              <a class="contacts-footer__link contacts-footer__link_twitter" href="">Twitter</a>
+            </li>
+          </ul>
+        </div>
+        <div class="footer__bottom">
+          <small class="footer__copy">© 2008 — 2022 All rights reserved.</small>
+        </div>
+      </div>
+    </footer>
+  </div>
+
+  <div class="popup" id="consult" aria-hidden="true">
+    <div class="popup__wrapper">
+      <div class="popup__content">
+        <div class="consult">
+          <img class="consult__image" src="img/popup/consult.svg" alt="">
+          <form class="consult__form form-consult" action="#">
+            <h2 class="form-consult__title">Fill out an application</h2>
+            <div class="form-consult__inp-wrapper form-consult__inp-wrapper_name">
+              <input class="input form-consult__input" autocomplete="off" type="text" name="form[]" placeholder="Name">
+            </div>
+            <div class="form-consult__inp-wrapper form-consult__inp-wrapper_mail">
+              <input class="input form-consult__input" autocomplete="off" type="text" name="form[]" placeholder="Mail">
+            </div>
+            <div class="form-consult__inp-wrapper form-consult__inp-wrapper_phone">
+              <input class="input form-consult__input" autocomplete="off" type="text" name="form[]" placeholder="Phone">
+            </div>
+            <button class="form-consult__btn btn">Get a consultation</button>
+            <button class="form-consult__close" data-close type="button">back</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="popup" id="thank" aria-hidden="true">
+    <div class="popup__wrapper">
+      <div class="popup__content">
+        <div class="thank">
+          <img class="thank__image" src="img/popup/thank.svg" alt="">
+          <h2 class="thank__title">Thank you
+            <br>
+            for your application!
+          </h2>
+          <h3 class="thank__subtitle">Our manager will contact you</h3>
+          <button class="thank__close" data-close type="button">back</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- <script src="https://api-maps.yandex.ru/2.1/?apikey=51092280-e018-4241-bc97-180570de25d4&lang=ru_RU&_v=20220912105520"></script> -->
+  <script src="js/app.min.js?_v=20220912105520"></script>
+
+</body>
+
+</html>
