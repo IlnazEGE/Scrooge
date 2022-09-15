@@ -1684,7 +1684,6 @@ body::after {
   margin-right: 2.5rem;
   -ms-flex-item-align: start;
       align-self: flex-start;
-  max-width: 100%;
   -webkit-box-flex: 0;
       -ms-flex: 0 1 50%;
           flex: 0 1 50%;
@@ -2187,6 +2186,7 @@ body::after {
     -ms-flex-item-align: center;
         -ms-grid-row-align: center;
         align-self: center;
+    max-width: 100%;
     margin-right: 0;
     margin-bottom: 1.875rem;
   }
