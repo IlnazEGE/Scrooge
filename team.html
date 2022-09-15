@@ -1,8 +1,8 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="en">
 
 <head>
-  <title>Главная</title>
+  <title>team</title>
   <meta charset="UTF-8">
   <meta name="format-detection" content="telephone=no">
   <link rel="stylesheet" href="css/style.min.css?_v=20220915180205">
@@ -14,7 +14,7 @@
 <body>
 
   <div class="wrapper">
-    <header class="header @@class-header">
+    <header class="header header_shadow">
       <div class="header__container">
         <a class="header__logo" href="">
           <img src="img/logo.svg" width="253" height="45" alt="Scrooge Frog">
@@ -86,7 +86,89 @@
       </div>
     </header>
     <main class="page">
-
+      <section class="team">
+        <div class="team__container">
+          <h2 class="team__title">
+            <span>ScroogeFrog is a full-cycle media buying agency</span>
+            since 2007, with a specialization in
+            advertising traffic
+          </h2>
+          <div class="team__row">
+            <picture>
+              <source srcset="img/team/1.webp" type="image/webp">
+              <img class="team__image" src="img/team/1.jpg" alt="">
+            </picture>
+            <ul class="team__list">
+              <li class="team__item team__item_1">We deal with ads on all platforms, with any ad pricing models and
+                KPIs. Our services include not only
+                advertising optimization, but also effective creatives</li>
+              <li class="team__item team__item_2">We work with many non-standard geos like Africa and Asia. Moreover
+                with different international and local
+                platforms and we know a lot about their effectiveness for different purposes and audiences. Due to our
+                extensive experience, we can predict the result and draw up the right strategy</li>
+              <li class="team__item team__item_3">We own a technology stack called ScroogeFrog
+                Click Fraud Protection© and smart algorithmic autobidder. We use our technology to find bot traffic,
+                fake
+                leads and ineffective ad placements</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+      <div class="founder">
+        <div class="founder__container">
+          <div class="founder__left left-founder">
+            <div class="left-founder__top">
+              <img class="left-founder__icon" src="img/icons/team/logo-icon.svg" alt="">
+              <div class="left-founder__descr">Founder of Scroogefrog:</div>
+              <div class="left-founder__name">Konstantin Novofastovskyi</div>
+            </div>
+            <picture>
+              <source srcset="img/icons/team/founder-1.webp" type="image/webp">
+              <img class="left-founder__image" src="img/icons/team/founder-1.jpg" alt="">
+            </picture>
+          </div>
+          <div class="founder__right right-founder">
+            <div class="right-founder__top">
+              <picture>
+                <source srcset="img/icons/team/founder-2.webp" type="image/webp">
+                <img class="right-founder__image-left" src="img/icons/team/founder-2.jpg" alt="">
+              </picture>
+              <picture>
+                <source srcset="img/icons/team/founder-3.webp" type="image/webp">
+                <img class="right-founder__image-right" src="img/icons/team/founder-3.jpg" alt="">
+              </picture>
+            </div>
+            <ul class="right-founder__list">
+              <li class="right-founder__item">On the market since 2005</li>
+              <li class="right-founder__item">International conferences speaker</li>
+              <li class="right-founder__item">Internet-advertising processes automation expert</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <section class="feedback">
+        <div class="feedback__container">
+          <div class="feedback__content content-feedback">
+            <h2 class="content-feedback__title">Have a project in mind? Let’s get to work</h2>
+            <a href="" class="content-feedback__btn">Contact us</a>
+          </div>
+          <div class="feedback__right">
+            <form class="feedback__form form-feedback" action="#">
+              <h2 class="form-feedback__title">Fill out a form</h2>
+              <div class="form-feedback__inp-wrapper form-feedback__inp-wrapper_name">
+                <input class="input form-feedback__input" autocomplete="off" type="text" name="form[]" placeholder="Name">
+              </div>
+              <div class="form-feedback__inp-wrapper form-feedback__inp-wrapper_mail">
+                <input class="input form-feedback__input" autocomplete="off" type="text" name="form[]" placeholder="Mail">
+              </div>
+              <div class="form-feedback__inp-wrapper form-feedback__inp-wrapper_phone">
+                <input class="input form-feedback__input" autocomplete="off" type="text" name="form[]" placeholder="Phone / Messengers">
+              </div>
+              <button class="form-feedback__btn btn">Get a consultation</button>
+            </form>
+          </div>
+        </div>
+      </section>
     </main>
     <footer class="footer">
       <div class="footer__container">

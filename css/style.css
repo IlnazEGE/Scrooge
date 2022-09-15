@@ -1646,6 +1646,202 @@ body::after {
   background: url("../img/icons/footer/skype-gray.svg") 0 0/100% no-repeat;
 }
 
+.team {
+  padding: 3.25rem 0rem;
+}
+
+.team__title {
+  position: relative;
+  font-weight: 600;
+  font-size: 1.6875rem;
+  line-height: 1.4814814815;
+  margin-bottom: 1.5925925926em;
+  max-width: 31.25rem;
+}
+
+.team__title::after {
+  content: "";
+  position: absolute;
+  bottom: 0.625rem;
+  left: 105%;
+  width: 7.25rem;
+  height: 4.6875rem;
+  background: url("../img/icons/line-team.svg") 0 0 no-repeat;
+}
+
+.team__title span {
+  color: #81bd52;
+}
+
+.team__row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.team__image {
+  border-radius: 2.5rem;
+  margin-right: 2.5rem;
+  -ms-flex-item-align: start;
+      align-self: flex-start;
+  max-width: 100%;
+  -webkit-box-flex: 0;
+      -ms-flex: 0 1 50%;
+          flex: 0 1 50%;
+}
+
+.team__item {
+  font-weight: 500;
+  line-height: 1.5;
+  color: rgba(0, 0, 0, 0.7);
+  position: relative;
+  padding-left: 3.75rem;
+}
+
+.team__item:not(:last-child) {
+  margin-bottom: 1.6875rem;
+}
+
+.team__item::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 2.0625rem;
+  height: 1.875rem;
+}
+
+.team__item_1::after {
+  background: url("../img/icons/team/1.svg") 0 0 no-repeat;
+}
+
+.team__item_2::after {
+  background: url("../img/icons/team/2.svg") 0 0 no-repeat;
+}
+
+.team__item_3::after {
+  background: url("../img/icons/team/3.svg") 0 0 no-repeat;
+}
+
+.founder {
+  padding: 1.6875rem 0rem;
+}
+
+.founder__container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.founder__left {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 1 31.75rem;
+          flex: 0 1 31.75rem;
+  margin-top: 2.875rem;
+}
+
+.founder__right {
+  margin-left: auto;
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 50%;
+          flex: 0 0 50%;
+}
+
+.left-founder__top {
+  text-align: center;
+  margin-bottom: 2.5625rem;
+}
+
+.left-founder__icon {
+  margin-bottom: 1.625rem;
+}
+
+.left-founder__descr {
+  font-weight: 500;
+  font-size: 1.375rem;
+  color: rgba(0, 0, 0, 0.7);
+  margin-bottom: 1em;
+}
+
+.left-founder__name {
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.left-founder__image {
+  max-width: 100%;
+}
+
+.right-founder {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.right-founder__top {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[2];
+  grid-template-columns: repeat(2, 1fr);
+  justify-items: end;
+  gap: 1.25rem;
+}
+
+.right-founder__image-left {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 1 50%;
+          flex: 0 1 50%;
+  max-width: 100%;
+}
+
+.right-founder__image-right {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 1 50%;
+          flex: 0 1 50%;
+  max-width: 100%;
+}
+
+.right-founder__list {
+  position: relative;
+  margin-top: 3.125rem;
+}
+
+.right-founder__list::after {
+  content: "";
+  position: absolute;
+  width: 4.25rem;
+  height: 2.75rem;
+  right: 2.5rem;
+  top: -3.125rem;
+  background: url("../img/icons/line-team-1.svg") 0 0 no-repeat;
+}
+
+.right-founder__item {
+  font-weight: 500;
+  font-size: 1.25rem;
+  line-height: 1.5;
+  position: relative;
+  padding-left: 2.8125rem;
+}
+
+.right-founder__item::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 1.875rem;
+  height: 1.875rem;
+  background: url("../img/icons/team/check.svg") 0 0 no-repeat;
+}
+
+.right-founder__item:not(:last-child) {
+  margin-bottom: 1.875rem;
+}
+
 @media (min-width: 29.99875em) {
   .hero__subtitle {
     max-width: 54.1666666667%;
@@ -1723,6 +1919,26 @@ body::after {
     height: 6.75rem;
     background: url("../img/icons/line-form.svg") 0 0/100% no-repeat;
   }
+
+  .team__title {
+    margin-left: 2.8125rem;
+  }
+
+  .left-founder {
+    margin-right: 1.25rem;
+  }
+
+  .left-founder__image {
+    width: 100%;
+  }
+
+  .right-founder__image-left {
+    margin-top: 3.125rem;
+  }
+
+  .right-founder__list {
+    margin-left: 4.375rem;
+  }
 }
 
 @media (min-width: 77.5em) {
@@ -1764,6 +1980,10 @@ body::after {
 
   .questions__body {
     gap: 1.875rem;
+  }
+
+  .team__image {
+    margin-right: 0.9375rem;
   }
 }
 
@@ -1946,6 +2166,90 @@ body::after {
 
   .contact__list::after {
     display: none;
+  }
+
+  .team__title::after {
+    display: none;
+  }
+
+  .team__title {
+    font-size: 1.5625rem;
+  }
+
+  .team__row {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+
+  .team__image {
+    -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
+    margin-right: 0;
+    margin-bottom: 1.875rem;
+  }
+
+  .team__item {
+    font-size: 1rem;
+  }
+
+  .founder__container {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+  }
+
+  .left-founder {
+    margin-bottom: 1.875rem;
+  }
+
+  .left-founder__descr {
+    font-size: 1.25rem;
+  }
+
+  .left-founder__name {
+    font-size: 1.375rem;
+  }
+
+  .right-founder__top {
+    margin-top: 4.0625rem;
+  }
+
+  .right-founder__image-left {
+    margin-top: 1.875rem;
+  }
+
+  .right-founder__image-right {
+    -webkit-box-ordinal-group: 0;
+        -ms-flex-order: -1;
+            order: -1;
+  }
+
+  .right-founder__list::after {
+    top: 102%;
+  }
+
+  .right-founder__list {
+    -webkit-box-ordinal-group: 0;
+        -ms-flex-order: -1;
+            order: -1;
+  }
+
+  .right-founder__list {
+    margin-top: 0rem;
+  }
+
+  .right-founder__item {
+    font-size: 1.125rem;
   }
 }
 
@@ -2234,6 +2538,14 @@ body::after {
   .contact__list {
     margin-bottom: 1.875rem;
   }
+
+  .team__title {
+    font-size: 1.375rem;
+  }
+
+  .team__image {
+    border-radius: 1.25rem;
+  }
 }
 
 @media (max-width: 33.75em) {
@@ -2329,6 +2641,27 @@ body::after {
 
   .column-cases__image {
     max-height: 12.875rem;
+  }
+
+  .team {
+    padding: 1.875rem 0rem;
+  }
+
+  .team__item {
+    padding-left: 2.75rem;
+    font-size: 0.875rem;
+  }
+
+  .team__item:not(:last-child) {
+    margin-bottom: 1.25rem;
+  }
+
+  .left-founder__descr {
+    font-size: 1.125rem;
+  }
+
+  .left-founder__name {
+    font-size: 1.25rem;
   }
 }
 
