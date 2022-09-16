@@ -5,7 +5,7 @@
   <title>team</title>
   <meta charset="UTF-8">
   <meta name="format-detection" content="telephone=no">
-  <link rel="stylesheet" href="css/style.min.css?_v=20220916104646">
+  <link rel="stylesheet" href="css/style.min.css?_v=20220916170224">
   <link rel="shortcut icon" href="img/favicon.png">
   <meta name="robots" content="noindex, nofollow">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -65,16 +65,16 @@
               <div class="contacts-menu__label contacts-menu__label_bottom">We in social networks</div>
               <ul class="contacts-menu__icons">
                 <li class="contacts-menu__icon">
-                  <a class="contacts-menu__link contacts-menu__link_whatsapp-gray" href="">Whatsapp</a>
+                  <a class="contacts-menu__link contacts-menu__link_facebook" href="">Facebook</a>
+                </li>
+                <li class="contacts-menu__icon">
+                  <a class="contacts-menu__link contacts-menu__link_twitter" href="">Twitter</a>
                 </li>
                 <li class="contacts-menu__icon">
                   <a class="contacts-menu__link contacts-menu__link_in" href="">Linkedin</a>
                 </li>
                 <li class="contacts-menu__icon">
-                  <a class="contacts-menu__link contacts-menu__link_facebook" href="">Facebook</a>
-                </li>
-                <li class="contacts-menu__icon">
-                  <a class="contacts-menu__link contacts-menu__link_twitter" href="">Twitter</a>
+                  <a class="contacts-menu__link contacts-menu__link_tg-gray" href="">Telegram</a>
                 </li>
                 <li class="contacts-menu__icon">
                   <a class="contacts-menu__link contacts-menu__link_reddit" href="">Reddit</a>
@@ -220,16 +220,16 @@
           <div class="socials-footer__label socials-footer__label_bottom">We in social networks</div>
           <ul class="socials-footer__icons">
             <li class="socials-footer__icon">
-              <a class="socials-footer__link socials-footer__link_whatsapp-gray" href="">Whatsapp</a>
+              <a class="socials-footer__link socials-footer__link_facebook" href="">Facebook</a>
+            </li>
+            <li class="socials-footer__icon">
+              <a class="socials-footer__link socials-footer__link_twitter" href="">Twitter</a>
             </li>
             <li class="socials-footer__icon">
               <a class="socials-footer__link socials-footer__link_in" href="">Linkedin</a>
             </li>
             <li class="socials-footer__icon">
-              <a class="socials-footer__link socials-footer__link_facebook" href="">Facebook</a>
-            </li>
-            <li class="socials-footer__icon">
-              <a class="socials-footer__link socials-footer__link_twitter" href="">Twitter</a>
+              <a class="socials-footer__link socials-footer__link_tg-gray" href="">Telegram</a>
             </li>
             <li class="socials-footer__icon">
               <a class="socials-footer__link socials-footer__link_reddit" href="">Reddit</a>
@@ -243,8 +243,48 @@
     </footer>
   </div>
 
-  <!-- <script src="https://api-maps.yandex.ru/2.1/?apikey=51092280-e018-4241-bc97-180570de25d4&lang=ru_RU&_v=20220916104646"></script> -->
-  <script src="js/app.min.js?_v=20220916104646"></script>
+  <div class="popup" id="consult" aria-hidden="true">
+    <div class="popup__wrapper">
+      <div class="popup__content">
+        <div class="consult">
+          <img class="consult__image" src="img/popup/consult.svg" aria-hidden="true" alt="">
+          <form class="consult__form form-consult" action="#">
+            <h2 class="form-consult__title">Fill out a form</h2>
+            <div class="form-consult__inp-wrapper form-consult__inp-wrapper_name">
+              <input class="input form-consult__input" autocomplete="off" type="text" name="form[]" placeholder="Name">
+            </div>
+            <div class="form-consult__inp-wrapper form-consult__inp-wrapper_mail">
+              <input class="input form-consult__input" autocomplete="off" type="text" name="form[]" placeholder="Mail">
+            </div>
+            <div class="form-consult__inp-wrapper form-consult__inp-wrapper_phone">
+              <input class="input form-consult__input" autocomplete="off" type="text" name="form[]" placeholder="Phone / Messengers">
+            </div>
+            <button class="form-consult__btn btn">Get a consultation</button>
+            <button class="form-consult__close" data-close type="button">back</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="popup" id="thank" aria-hidden="true">
+    <div class="popup__wrapper">
+      <div class="popup__content">
+        <div class="thank">
+          <img class="thank__image" src="img/popup/thank.svg" aria-hidden="true" alt="">
+          <h2 class="thank__title">Thank you
+            <br>
+            for your request!
+          </h2>
+          <h3 class="thank__subtitle">Our manager will contact you</h3>
+          <button class="thank__close" data-close type="button">back</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- <script src="https://api-maps.yandex.ru/2.1/?apikey=51092280-e018-4241-bc97-180570de25d4&lang=ru_RU&_v=20220916170224"></script> -->
+  <script src="js/app.min.js?_v=20220916170224"></script>
 
 </body>
 
