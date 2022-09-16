@@ -1841,6 +1841,241 @@ body::after {
   margin-bottom: 1.875rem;
 }
 
+.services-hero {
+  padding: 3.25rem 0rem;
+}
+
+.services-hero__title {
+  position: relative;
+  font-weight: 600;
+  font-size: 1.6875rem;
+  line-height: 1.4814814815;
+  margin-bottom: 1.5925925926em;
+  max-width: 31.25rem;
+}
+
+.services-hero__title::after {
+  content: "";
+  position: absolute;
+  bottom: 0.3125rem;
+  left: 113%;
+  width: 7.25rem;
+  height: 4.6875rem;
+  background: url("../img/icons/line-team.svg") 0 0 no-repeat;
+}
+
+.services-hero__title span {
+  color: #81bd52;
+}
+
+.services-hero__row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.services-hero__image {
+  border-radius: 2.5rem;
+  margin-right: 2.5rem;
+  -ms-flex-item-align: start;
+      align-self: flex-start;
+  margin-right: 1.25rem;
+}
+
+.services-hero__list {
+  margin-top: 2rem;
+}
+
+.services-hero__item {
+  font-weight: 500;
+  line-height: 1.5;
+  color: rgba(0, 0, 0, 0.7);
+  position: relative;
+  padding-left: 2.5rem;
+}
+
+.services-hero__item:not(:last-child) {
+  margin-bottom: 1.6875rem;
+}
+
+.services-hero__item::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 1.875rem;
+  height: 1.875rem;
+  background: url("../img/icons/team/check.svg") 0 0/100% no-repeat;
+}
+
+.who-services {
+  padding: 3.5625rem 0rem 1.25rem 0rem;
+}
+
+.who-services__title {
+  margin-bottom: 2.5rem;
+}
+
+.who-services__list {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[4];
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1.875rem;
+}
+
+.who-item__icon {
+  margin-bottom: 0.9375rem;
+}
+
+.who-item__label {
+  font-weight: 600;
+  font-size: 1.25rem;
+  line-height: 1.35;
+  margin-bottom: 0.7em;
+}
+
+.who-item__descr {
+  font-weight: 500;
+  font-size: 1rem;
+  line-height: 1.5;
+  color: rgba(0, 0, 0, 0.7);
+}
+
+.our-services {
+  padding: 3.25rem 0rem 6.875rem;
+}
+
+.our-services__container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.our-services__row {
+  display: -ms-grid;
+  display: grid;
+}
+
+.our-services__row_2 {
+  -ms-grid-columns: (1fr)[2];
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1.25rem;
+}
+
+.our-services__row_2 .item-our-services {
+  border-radius: 4.0625rem;
+  padding: 3.3125rem 3.6875rem;
+}
+
+.our-services__row_4 {
+  -ms-grid-columns: (1fr)[4];
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.our-services__row_4 .item-our-services__label {
+  padding-left: 1.25rem;
+}
+
+.our-services__row_4 .item-our-services {
+  border-radius: 2.8125rem;
+  padding: 2.1875rem 1.5625rem;
+}
+
+.our-services__title {
+  padding: 4.375rem 0rem;
+  position: relative;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+}
+
+.our-services__title .line-bottom {
+  position: relative;
+}
+
+.our-services__title .line-bottom::after {
+  content: "";
+  position: absolute;
+  top: 68%;
+  width: 19.3125rem;
+  height: 4.0625rem;
+  right: 106%;
+  background: url("../img/icons/serv-page/line-3.svg") 0 0 no-repeat;
+}
+
+.our-services__title .line-bottom::before {
+  content: "";
+  position: absolute;
+  top: 68%;
+  width: 19.3125rem;
+  height: 4.0625rem;
+  left: 106%;
+  background: url("../img/icons/serv-page/line-4.svg") 0 0 no-repeat;
+}
+
+.our-services__title::after {
+  content: "";
+  position: absolute;
+  top: 0.6875rem;
+  right: 106%;
+  width: 10.375rem;
+  height: 4.25rem;
+  background: url("../img/icons/serv-page/line-1.svg") 0 0/100% no-repeat;
+}
+
+.our-services__title::before {
+  content: "";
+  position: absolute;
+  top: 0.6875rem;
+  left: 106%;
+  width: 10.375rem;
+  height: 4.25rem;
+  background: url("../img/icons/serv-page/line-2.svg") 0 0/100% no-repeat;
+}
+
+.item-our-services {
+  border: 0.0625rem solid #81bd52;
+  background-color: #fff;
+}
+
+.item-our-services__label {
+  font-weight: 600;
+  font-size: 1.25rem;
+  line-height: 1.35;
+  margin-bottom: 1em;
+}
+
+.item-our-services__line {
+  font-weight: 500;
+  font-size: 1rem;
+  line-height: 1.3125;
+  color: rgba(0, 0, 0, 0.7);
+  position: relative;
+  padding-left: 1.4375rem;
+}
+
+.item-our-services__line::after {
+  content: "";
+  position: absolute;
+  top: 0.25rem;
+  left: 0;
+  background: url("../img/icons/serv-page/check.svg") 0 0 no-repeat;
+  width: 0.8125rem;
+  height: 0.75rem;
+}
+
+.item-our-services__line:not(:last-child) {
+  margin-bottom: 1.3125rem;
+}
+
 @media (min-width: 29.99875em) {
   .hero__subtitle {
     max-width: 54.1666666667%;
@@ -1938,6 +2173,12 @@ body::after {
   .right-founder__list {
     margin-left: 4.375rem;
   }
+
+  .services-hero__list {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 1 31.25rem;
+            flex: 0 1 31.25rem;
+  }
 }
 
 @media (min-width: 77.5em) {
@@ -1964,6 +2205,10 @@ body::after {
   .contact__list {
     margin-left: 6.25rem;
   }
+
+  .our-services__row_4 .item-our-services:not(:first-child) {
+    margin-left: -1.5rem;
+  }
 }
 
 @media (max-width: 20em) {
@@ -1983,6 +2228,32 @@ body::after {
 
   .team__image {
     margin-right: 0.9375rem;
+  }
+
+  .services-hero__image {
+    margin-right: 0.9375rem;
+  }
+
+  .our-services__row_4 {
+    -ms-grid-columns: (1fr)[2];
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.25rem;
+  }
+
+  .our-services__title .line-bottom::after {
+    display: none;
+  }
+
+  .our-services__title .line-bottom::before {
+    display: none;
+  }
+
+  .our-services__title::after {
+    display: none;
+  }
+
+  .our-services__title::before {
+    display: none;
   }
 }
 
@@ -2250,6 +2521,78 @@ body::after {
 
   .right-founder__item {
     font-size: 1.125rem;
+  }
+
+  .services-hero__title::after {
+    display: none;
+  }
+
+  .services-hero__title {
+    font-size: 1.5625rem;
+  }
+
+  .services-hero__row {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+
+  .services-hero__image {
+    -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
+    max-width: 100%;
+    margin-right: 0;
+    margin-bottom: 1.875rem;
+  }
+
+  .services-hero__list {
+    -webkit-box-ordinal-group: 0;
+        -ms-flex-order: -1;
+            order: -1;
+    margin: 0rem 0rem 1.25rem 0rem;
+  }
+
+  .services-hero__item {
+    font-size: 1rem;
+  }
+
+  .who-services__list {
+    -ms-grid-columns: (1fr)[2];
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .our-services {
+    padding: 1.25rem 0rem;
+  }
+
+  .our-services__row_2 {
+    -ms-grid-columns: 1fr;
+    grid-template-columns: 1fr;
+    margin-bottom: 1.25rem;
+  }
+
+  .our-services__row_2 .item-our-services {
+    border-radius: 2.8125rem;
+    padding: 1.875rem 1.25rem;
+  }
+
+  .our-services__row_4 {
+    -ms-grid-columns: 1fr;
+    grid-template-columns: 1fr;
+  }
+
+  .our-services__row_4 .item-our-services {
+    padding: 1.25rem 1.25rem;
+  }
+
+  .our-services__title {
+    margin-bottom: 1.875rem;
+    -webkit-box-ordinal-group: 0;
+        -ms-flex-order: -1;
+            order: -1;
+    padding: 0;
   }
 }
 
@@ -2546,6 +2889,42 @@ body::after {
   .team__image {
     border-radius: 1.25rem;
   }
+
+  .services-hero__title {
+    font-size: 1.375rem;
+  }
+
+  .services-hero__image {
+    border-radius: 1.25rem;
+  }
+
+  .services-hero__item::after {
+    width: 1.5625rem;
+    height: 1.5625rem;
+  }
+
+  .who-services {
+    padding: 0.625rem 0rem;
+  }
+
+  .who-services__list {
+    -ms-grid-columns: 1fr;
+    grid-template-columns: 1fr;
+    margin: 0rem 1.5625rem;
+  }
+
+  .who-item__icon {
+    width: 4rem;
+    height: 4rem;
+  }
+
+  .item-our-services__label {
+    font-size: 1.125rem;
+  }
+
+  .item-our-services__line {
+    font-size: 0.875rem;
+  }
 }
 
 @media (max-width: 33.75em) {
@@ -2662,6 +3041,19 @@ body::after {
 
   .left-founder__name {
     font-size: 1.25rem;
+  }
+
+  .services-hero {
+    padding: 1.875rem 0rem;
+  }
+
+  .services-hero__item {
+    padding-left: 2.0625rem;
+    font-size: 0.875rem;
+  }
+
+  .services-hero__item:not(:last-child) {
+    margin-bottom: 1.25rem;
   }
 }
 
