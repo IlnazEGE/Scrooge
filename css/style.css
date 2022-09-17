@@ -2215,11 +2215,10 @@ body::after {
   .partners__slide img {
     -webkit-filter: grayscale(1);
             filter: grayscale(1);
-    -webkit-transition: -webkit-filter 0.3s ease 0s;
-    transition: -webkit-filter 0.3s ease 0s;
-    -o-transition: filter 0.3s ease 0s;
-    transition: filter 0.3s ease 0s;
-    transition: filter 0.3s ease 0s, -webkit-filter 0.3s ease 0s;
+    -webkit-transition: all 0.3s ease 0s;
+    -o-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+    opacity: 0.5;
   }
 
   .stages__item {
@@ -3322,6 +3321,7 @@ body::after {
   }
 
   .partners__slide img:hover {
+    opacity: 1;
     -webkit-filter: grayscale(0);
             filter: grayscale(0);
   }
