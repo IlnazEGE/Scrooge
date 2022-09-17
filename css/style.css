@@ -2212,6 +2212,16 @@ body::after {
     grid-auto-flow: column;
   }
 
+  .partners__slide img {
+    -webkit-filter: grayscale(1);
+            filter: grayscale(1);
+    -webkit-transition: -webkit-filter 0.3s ease 0s;
+    transition: -webkit-filter 0.3s ease 0s;
+    -o-transition: filter 0.3s ease 0s;
+    transition: filter 0.3s ease 0s;
+    transition: filter 0.3s ease 0s, -webkit-filter 0.3s ease 0s;
+  }
+
   .stages__item {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -3309,6 +3319,11 @@ body::after {
 
   .menu__link:hover {
     color: #81bd52;
+  }
+
+  .partners__slide img:hover {
+    -webkit-filter: grayscale(0);
+            filter: grayscale(0);
   }
 
   .content-feedback__btn:hover::after {
