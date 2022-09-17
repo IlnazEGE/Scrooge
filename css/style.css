@@ -2296,6 +2296,10 @@ body::after {
     padding: 0rem 3.4375rem;
   }
 
+  .column-services__text_mr {
+    margin-right: 1.25rem;
+  }
+
   .feedback__content {
     padding-left: 6.25rem;
   }
