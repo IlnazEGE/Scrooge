@@ -945,13 +945,13 @@ body::after {
   font-size: 1.5rem;
   line-height: 1.1333333333;
   margin-bottom: 0.6em;
-  max-width: 15.625rem;
+  max-width: 16.875rem;
 }
 
 .questions__answer {
   font-weight: 500;
   line-height: 1.2916666667;
-  max-width: 14.375rem;
+  max-width: 16.25rem;
 }
 
 .questions__answer span {
@@ -1146,13 +1146,16 @@ body::after {
       -ms-transform: translate(0%, -50%) rotate(180deg);
           transform: translate(0%, -50%) rotate(180deg);
   background: url("../img/icons/arrow-left.svg") 0 0 no-repeat;
-  -webkit-transition: width 0.3s ease 0s;
-  -o-transition: width 0.3s ease 0s;
-  transition: width 0.3s ease 0s;
+  -webkit-transition: all 0.3s ease 0s;
+  -o-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
 }
 
 .active .spollers__check::after {
-  width: 0;
+  right: 0.9375rem;
+  -webkit-transform: rotate(0deg) translate(0%, -50%);
+      -ms-transform: rotate(0deg) translate(0%, -50%);
+          transform: rotate(0deg) translate(0%, -50%);
 }
 
 .spollers__country:not(:last-child) {
@@ -1907,6 +1910,7 @@ body::after {
   font-size: 1rem;
   line-height: 1.5;
   color: rgba(0, 0, 0, 0.7);
+  margin-right: 1.875rem;
 }
 
 .our-services {
@@ -2256,10 +2260,18 @@ body::after {
     margin-left: 4.375rem;
   }
 
+  .right-founder__item {
+    margin-right: 4.375rem;
+  }
+
   .services-hero__list {
     -webkit-box-flex: 0;
         -ms-flex: 0 1 31.25rem;
             flex: 0 1 31.25rem;
+  }
+
+  .item-our-services__label_mxw {
+    max-width: 10rem;
   }
 
   .left-cases-page__title {
@@ -2329,6 +2341,12 @@ body::after {
     border: 0.0625rem solid #81bd52;
     border-radius: 1.8125rem;
     padding: 1.3125rem 0.625rem;
+  }
+
+  .right-cases-page__image_bd {
+    border-right: 0.0625rem solid #81bd52;
+    padding-right: 0.3125rem;
+    margin-right: 0.3125rem;
   }
 
   .right-cases-page__list {
@@ -2483,6 +2501,7 @@ body::after {
   }
 
   .questions__question {
+    max-width: 15.625rem;
     font-size: 1.375rem;
   }
 
@@ -2931,6 +2950,10 @@ body::after {
     text-align: right;
   }
 
+  .questions__answer {
+    max-width: 14.375rem;
+  }
+
   .services {
     padding: 1.8125rem 0rem;
   }
@@ -2984,10 +3007,6 @@ body::after {
 
   .spollers__wrapper {
     padding-left: 3.125rem;
-  }
-
-  .active .spollers__wrapper {
-    padding-left: 1.4375rem;
   }
 
   .stages {
@@ -3060,6 +3079,10 @@ body::after {
   }
 
   .services-hero__title {
+    max-width: 27.5rem;
+  }
+
+  .services-hero__title {
     font-size: 1.375rem;
   }
 
@@ -3085,6 +3108,10 @@ body::after {
   .who-item__icon {
     width: 4rem;
     height: 4rem;
+  }
+
+  .who-item__descr {
+    margin-right: 3.4375rem;
   }
 
   .item-our-services__label {
