@@ -957,6 +957,7 @@ body::after {
 }
 
 .hero__subtitle {
+  max-width: 37.5rem;
   font-weight: 700;
   font-size: 3rem;
   line-height: 1.2291666667;
@@ -1165,8 +1166,8 @@ body::after {
   font-size: 0.875rem;
   color: rgba(0, 0, 0, 0.4);
   position: absolute;
-  top: 0%;
-  left: 0rem;
+  top: 0;
+  left: 0;
   -webkit-writing-mode: vertical-rl;
       -ms-writing-mode: tb-rl;
           writing-mode: vertical-rl;
@@ -2213,12 +2214,6 @@ body::after {
   color: rgba(0, 0, 0, 0.7);
 }
 
-@media (min-width: 29.99875em) {
-  .hero__subtitle {
-    max-width: 54.1666666667%;
-  }
-}
-
 @media (min-width: 47.99875em) {
   .consult {
     display: -webkit-box;
@@ -2560,6 +2555,7 @@ body::after {
 
   .hero__subtitle {
     font-size: 2.375rem;
+    max-width: 29.375rem;
   }
 
   .hero__btn::after {
@@ -3004,6 +3000,7 @@ body::after {
   .hero__subtitle {
     font-size: 1.625rem;
     margin-bottom: 5.625rem;
+    max-width: 20rem;
   }
 
   .hero__btn::after {
@@ -3282,6 +3279,10 @@ body::after {
 
   .hero__container {
     text-align: center;
+  }
+
+  .hero__subtitle {
+    margin: 0rem auto 5.625rem;
   }
 
   .hero__btn::after {
