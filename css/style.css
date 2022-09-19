@@ -945,7 +945,7 @@ body::after {
 .hero__container {
   position: relative;
   z-index: 2;
-  padding: 8.5rem 1.25rem;
+  padding: 5.25rem 1.25rem;
 }
 
 .hero__title {
@@ -2993,6 +2993,10 @@ body::after {
     margin-bottom: 2.1875rem;
   }
 
+  .hero__container {
+    padding: 6.875rem 1.25rem;
+  }
+
   .hero__title {
     font-size: 1.125rem;
   }
@@ -3180,9 +3184,19 @@ body::after {
   }
 
   .who-services__list {
-    -ms-grid-columns: 1fr;
-    grid-template-columns: 1fr;
-    margin: 0rem 1.5625rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+
+  .who-services__item:nth-child(even) {
+    -ms-flex-item-align: end;
+        align-self: flex-end;
+    text-align: right;
   }
 
   .who-item__icon {
@@ -3191,7 +3205,8 @@ body::after {
   }
 
   .who-item__descr {
-    margin-right: 3.4375rem;
+    max-width: 21.875rem;
+    margin-right: 0;
   }
 
   .item-our-services__label {
