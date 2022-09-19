@@ -1187,7 +1187,7 @@ body::after {
   font-size: 0;
 }
 
-.spollers__check::after {
+.spollers__check::before {
   content: "";
   position: absolute;
   top: 50%;
@@ -1203,7 +1203,7 @@ body::after {
   transition: all 0.3s ease 0s;
 }
 
-.active .spollers__check::after {
+.active .spollers__check::before {
   right: 0.9375rem;
   -webkit-transform: rotate(0deg) translate(0%, -50%);
       -ms-transform: rotate(0deg) translate(0%, -50%);
